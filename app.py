@@ -5,7 +5,7 @@ import pandas as pd
 # Load cleaned CSV
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:/Users/baich/.vscode/web scraping - bda/MyJob_listings1.csv")
+    return pd.read_csv("MyJob_listings1.csv")
 
 data = load_data()
 
